@@ -1,0 +1,82 @@
+.I1 { grid-area: header; }
+.I2 { grid-area: main; }
+.I3 { grid-area: footer;}
+.I4 { grid-area: menu;}
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    font-family: cursive;
+}
+head{
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black
+}
+li {
+    float: left;
+}
+li a:hover:not(.active){
+    background-color: #333333
+}
+.active {
+    background-color: grey;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: Arial;
+    font-size: 25;
+    text-align: center;
+    color: white;
+}
+.e {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: arial;
+    font-size: 80px;
+}
+body{
+    background-image: url(pure_minimal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: arial;
+}
+#lefty{
+    float: right;
+}

@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    font-size: 125;
+    
+}
+span {
+    text-align: center;
+    font-size: 50;
+    color: white
+}
+a {
+    color: white
+}
+#lefty{
+    float: right;
+}
